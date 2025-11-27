@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - OneWayPlatform
+  - TP_Pair1
+  - TP_Pair2
+  - TP_Pair3
+  - TP_Pair4
+  - TP_Pair5
+  - TP_Pair6
   layers:
   - Default
   - TransparentFX
@@ -12,7 +19,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - OneWayPlatform
   - 
   - 
   - 
