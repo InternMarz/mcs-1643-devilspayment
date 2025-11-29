@@ -12,6 +12,8 @@ TagManager:
   - TP_Pair4
   - TP_Pair5
   - TP_Pair6
+  - Enemy
+  - EnemyAttack
   layers:
   - Default
   - TransparentFX
