@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 4738069061184522261}
   - component: {fileID: 7281103814987537816}
   - component: {fileID: 585373012801512465}
-  - component: {fileID: 7024238242649273565}
   m_Layer: 0
   m_Name: EnemyWeapon
   m_TagString: Untagged
@@ -141,22 +140,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &7024238242649273565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7437246970398292399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc84a2bcd6dd67047b3e5291a09bf922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Ammo: 100
-  ProjectilePrefab: {fileID: 3873622141198391562}
-  MuzzlePoint: {fileID: 3469132159299730324}
-  ProjScale: 0
 --- !u!1001 &3528720032149607704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -214,11 +197,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43c058d0b7c4aef4d9cc6f117b55eb7a, type: 3}
---- !u!1 &3873622141198391562 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 376427685068590098, guid: 43c058d0b7c4aef4d9cc6f117b55eb7a, type: 3}
-  m_PrefabInstance: {fileID: 3528720032149607704}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7283731419474205466 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6191757958255840770, guid: 43c058d0b7c4aef4d9cc6f117b55eb7a, type: 3}

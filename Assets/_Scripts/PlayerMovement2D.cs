@@ -41,6 +41,7 @@ public class PlayerMovement2D : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        groundLayer = LayerMask.GetMask("Ground");
     }
 
     private void Update()

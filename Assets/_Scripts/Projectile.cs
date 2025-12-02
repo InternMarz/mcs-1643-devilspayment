@@ -7,16 +7,18 @@ public class Projectile : MonoBehaviour
     public float Speed;
     public float Damage = 10.0f;
 
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody2D rb;
+
+    private void Start()
     {
-        Destroy(gameObject, 10);
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * Speed * Time.deltaTime;
+        //transform.position += transform.forward * Speed * Time.deltaTime;
+        rb.velocity = transform.right * Speed;
     }
 
     private void OnCollisionEnter(Collision collision)
